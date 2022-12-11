@@ -1131,7 +1131,7 @@
 	pixel_y = 24
 	},
 /obj/structure/cable/green{
-	icon_state = "1-4"
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
@@ -7859,7 +7859,7 @@
 	pixel_y = 24
 	},
 /obj/structure/cable/green{
-	icon_state = "1-8"
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
@@ -11630,16 +11630,14 @@
 	id = "cruiser_bridge";
 	name = "bridge blast doors";
 	pixel_y = -2;
-	req_access = list(113);
-	req_one_access = null;
+	req_one_access = list(203);
 	pixel_x = 5
 	},
 /obj/machinery/button/remote/blast_door{
 	id = "sol_strongroom";
 	name = "strongroom blast doors";
 	pixel_y = -2;
-	req_access = list(113);
-	req_one_access = null;
+	req_one_access = list(203);
 	pixel_x = -6
 	},
 /obj/item/clothing/head/helmet/pilot{
